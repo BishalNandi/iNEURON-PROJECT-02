@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Oswald:wght@200;600&display=swap');
+
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+} */
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+
+.container{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(97, 102, 109, 0.7) 100%), url("./assets/background.png");
+  padding: 39px;
+  margin: -8px;
+  /* background-size: 10px; */
+  /* background-size: contain;                      <------ */
+    /* background-repeat:   no-repeat; */
+    background-position: center; 
+  
+  /* height: 500px; */
+  /* background-position: center;  */
+  /* background-repeat: no-repeat;  */
+  background-size: cover; 
+ height: 80%;
+  
+  /* height: 100vh;
+	width: 50%; */
+}
+
+
+div li{
+  margin: 27px;
+  color: #E8BD0D;
+  
+}
+
+.logo{
+  width: 90px;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.list{
+
+  margin-top: -40px;
+  margin-left: 350px;
+  /* position: absolute; */
+}
+
+.list li{
+  margin: 40px;
+  display: inline;
+  /* position: relative; */
+  margin-bottom: 50px;
+  /* position: relative; */
+  /* margin-top: -80px; */
+  /* position: absolute; */
+}
+
+nav.navbar{
+  /* margin-top: -60px; */
+  /* display: inline; */
+  /* position: absolute; */
+}
+
+.button-small{
+  display: inline;
+  position: absolute;
+  margin-left: 1230px;
+  margin-top: -38px;
+  padding: 2px;
+  width: 70px;
+  background-color: #FF6263;
+  color : #ffff;
+}
+
+div.hero{
+  margin-top: 2%;
+  margin-left: 20%;
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+.hero{
+  /* display: inline-block; */
+  /* position: relative; */
+  /* margin: 10px; */
+  /* padding: 10px; */
+  font-size: 70px;
+  display: block;
+  text-align: center;
+  /* margin-left: 20px; */
+
+}
+.hero-heading{
+  width:84%;
+  /* height: 80%; */
+ 
+  color: #ffcc00;
+}
+
+.button-large{
+  display: inline;
+  position: absolute;
+  margin-left: 240px;
+  width: 170;
+  margin-top: -50px;
+  color: #ffff;
+  border: #FF6263;
+  background-color: #FF6263;
+  /* margin-bottom: -200px; */
+  
+  padding: 8px;
+}
+
+button{
+  width: 150px;
+}
+
+h1.hero-heading{
+  margin-left: -30px;
+}
+
+.bottom{
+  display: inline-block;
+  margin-left: 600px;
+  margin-bottom: 40px;
+}
+
+div.bottom{
+  /* padding: 20px; */
+  /* margin-right: 10px; */
+}
